@@ -5,5 +5,5 @@ const app = express()
 
 
 app.listen(443, function() {
-    cosnole.log('proxy start')
+    console.log('proxy start')
 })
