@@ -8,7 +8,12 @@ app.use('*', function(req, res) {
 
     console.log(req.path)
     res.send({
-        success: 1
+        success: 1,
+        data: [
+            {
+                a: 1
+            }
+        ]
     })
 })
 
