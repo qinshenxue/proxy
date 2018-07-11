@@ -2,6 +2,7 @@ const express = require('express')
 
 const app = express()
 
+// all
 app.use('*', function(req, res) {
     // body...
 
